@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1AFF9B18FFA7FD00431C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1AFF9A18FFA7FD00431C3A /* Foundation.framework */; };
+		0A1AFF9D18FFA7FD00431C3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1AFF9C18FFA7FD00431C3A /* CoreGraphics.framework */; };
+		0A1AFF9F18FFA7FD00431C3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1AFF9E18FFA7FD00431C3A /* UIKit.framework */; };
+		0A1AFFA518FFA7FD00431C3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A1AFFA318FFA7FD00431C3A /* InfoPlist.strings */; };
+		0A1AFFA718FFA7FD00431C3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AFFA618FFA7FD00431C3A /* main.m */; };
+		0A1AFFAB18FFA7FD00431C3A /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AFFAA18FFA7FD00431C3A /* FKAppDelegate.m */; };
+		0A1AFFAE18FFA7FD00431C3A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1AFFAC18FFA7FD00431C3A /* Main_iPhone.storyboard */; };
+		0A1AFFB118FFA7FD00431C3A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1AFFAF18FFA7FD00431C3A /* Main_iPad.storyboard */; };
+		0A1AFFB418FFA7FD00431C3A /* FKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AFFB318FFA7FD00431C3A /* FKViewController.m */; };
+		0A1AFFB618FFA7FD00431C3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1AFFB518FFA7FD00431C3A /* Images.xcassets */; };
+		0A1AFFBD18FFA7FD00431C3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1AFFBC18FFA7FD00431C3A /* XCTest.framework */; };
+		0A1AFFBE18FFA7FD00431C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1AFF9A18FFA7FD00431C3A /* Foundation.framework */; };
+		0A1AFFBF18FFA7FD00431C3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1AFF9E18FFA7FD00431C3A /* UIKit.framework */; };
+		0A1AFFC718FFA7FD00431C3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A1AFFC518FFA7FD00431C3A /* InfoPlist.strings */; };
+		0A1AFFC918FFA7FD00431C3A /* FashionKredV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AFFC818FFA7FD00431C3A /* FashionKredV2Tests.m */; };
+		0A1AFFD418FFABA800431C3A /* FKSideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AFFD318FFABA800431C3A /* FKSideMenuTableViewCell.m */; };
+		0A1AFFD618FFABBF00431C3A /* FKSideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A1AFFD518FFABBF00431C3A /* FKSideMenuTableViewCell.xib */; };
+		0AA659BA1903A8F100475A21 /* FKItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA659B91903A8F100475A21 /* FKItemTableViewCell.m */; };
+		0AA659BC1903A90100475A21 /* FKItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA659BB1903A90100475A21 /* FKItemTableViewCell.xib */; };
+		0AA659BF1903AA1200475A21 /* FKItemsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA659BE1903AA1200475A21 /* FKItemsTableView.m */; };
+		0AAD7C9919037AE700CD1034 /* FKLookDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7C9819037AE700CD1034 /* FKLookDetailsViewController.m */; };
+		0AAD7C9C19037E9900CD1034 /* FKLookEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD7C9B19037E9900CD1034 /* FKLookEditViewController.m */; };
+		0AB264DE190243FC00314D31 /* FKMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB264DD190243FC00314D31 /* FKMainTableViewCell.m */; };
+		0AB264E01902440C00314D31 /* FKMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB264DF1902440C00314D31 /* FKMainTableViewCell.xib */; };
+		0AB264E81902613600314D31 /* FKLookTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB264E71902613600314D31 /* FKLookTableView.m */; };
+		0AB264EA190261B500314D31 /* FKLookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB264E9190261B500314D31 /* FKLookTableViewCell.xib */; };
+		0AB264ED190261CA00314D31 /* FKLookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB264EC190261CA00314D31 /* FKLookTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A1AFFC018FFA7FD00431C3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A1AFF8F18FFA7FD00431C3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1AFF9618FFA7FD00431C3A;
+			remoteInfo = FashionKredV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1AFF9718FFA7FD00431C3A /* FashionKredV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionKredV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1AFF9A18FFA7FD00431C3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A1AFF9C18FFA7FD00431C3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A1AFF9E18FFA7FD00431C3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A1AFFA218FFA7FD00431C3A /* FashionKredV2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FashionKredV2-Info.plist"; sourceTree = "<group>"; };
+		0A1AFFA418FFA7FD00431C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A1AFFA618FFA7FD00431C3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A1AFFA818FFA7FD00431C3A /* FashionKredV2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FashionKredV2-Prefix.pch"; sourceTree = "<group>"; };
+		0A1AFFA918FFA7FD00431C3A /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		0A1AFFAA18FFA7FD00431C3A /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		0A1AFFAD18FFA7FD00431C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0A1AFFB018FFA7FD00431C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0A1AFFB218FFA7FD00431C3A /* FKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKViewController.h; sourceTree = "<group>"; };
+		0A1AFFB318FFA7FD00431C3A /* FKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKViewController.m; sourceTree = "<group>"; };
+		0A1AFFB518FFA7FD00431C3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A1AFFBB18FFA7FD00431C3A /* FashionKredV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionKredV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1AFFBC18FFA7FD00431C3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0A1AFFC418FFA7FD00431C3A /* FashionKredV2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FashionKredV2Tests-Info.plist"; sourceTree = "<group>"; };
+		0A1AFFC618FFA7FD00431C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A1AFFC818FFA7FD00431C3A /* FashionKredV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FashionKredV2Tests.m; sourceTree = "<group>"; };
+		0A1AFFD218FFABA800431C3A /* FKSideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSideMenuTableViewCell.h; sourceTree = "<group>"; };
+		0A1AFFD318FFABA800431C3A /* FKSideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSideMenuTableViewCell.m; sourceTree = "<group>"; };
+		0A1AFFD518FFABBF00431C3A /* FKSideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKSideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		0AA659B81903A8F100475A21 /* FKItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKItemTableViewCell.h; sourceTree = "<group>"; };
+		0AA659B91903A8F100475A21 /* FKItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKItemTableViewCell.m; sourceTree = "<group>"; };
+		0AA659BB1903A90100475A21 /* FKItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKItemTableViewCell.xib; sourceTree = "<group>"; };
+		0AA659BD1903AA1200475A21 /* FKItemsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKItemsTableView.h; sourceTree = "<group>"; };
+		0AA659BE1903AA1200475A21 /* FKItemsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKItemsTableView.m; sourceTree = "<group>"; };
+		0AAD7C9719037AE700CD1034 /* FKLookDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLookDetailsViewController.h; sourceTree = "<group>"; };
+		0AAD7C9819037AE700CD1034 /* FKLookDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLookDetailsViewController.m; sourceTree = "<group>"; };
+		0AAD7C9A19037E9900CD1034 /* FKLookEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLookEditViewController.h; sourceTree = "<group>"; };
+		0AAD7C9B19037E9900CD1034 /* FKLookEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLookEditViewController.m; sourceTree = "<group>"; };
+		0AB264DC190243FC00314D31 /* FKMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKMainTableViewCell.h; sourceTree = "<group>"; };
+		0AB264DD190243FC00314D31 /* FKMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKMainTableViewCell.m; sourceTree = "<group>"; };
+		0AB264DF1902440C00314D31 /* FKMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKMainTableViewCell.xib; sourceTree = "<group>"; };
+		0AB264E61902613600314D31 /* FKLookTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLookTableView.h; sourceTree = "<group>"; };
+		0AB264E71902613600314D31 /* FKLookTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLookTableView.m; sourceTree = "<group>"; };
+		0AB264E9190261B500314D31 /* FKLookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKLookTableViewCell.xib; sourceTree = "<group>"; };
+		0AB264EB190261CA00314D31 /* FKLookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLookTableViewCell.h; sourceTree = "<group>"; };
+		0AB264EC190261CA00314D31 /* FKLookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLookTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1AFF9418FFA7FD00431C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1AFF9D18FFA7FD00431C3A /* CoreGraphics.framework in Frameworks */,
+				0A1AFF9F18FFA7FD00431C3A /* UIKit.framework in Frameworks */,
+				0A1AFF9B18FFA7FD00431C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1AFFB818FFA7FD00431C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1AFFBD18FFA7FD00431C3A /* XCTest.framework in Frameworks */,
+				0A1AFFBF18FFA7FD00431C3A /* UIKit.framework in Frameworks */,
+				0A1AFFBE18FFA7FD00431C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1AFF8E18FFA7FD00431C3A = {
+			isa = PBXGroup;
+			children = (
+				0A1AFFA018FFA7FD00431C3A /* FashionKredV2 */,
+				0A1AFFC218FFA7FD00431C3A /* FashionKredV2Tests */,
+				0A1AFF9918FFA7FD00431C3A /* Frameworks */,
+				0A1AFF9818FFA7FD00431C3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A1AFF9818FFA7FD00431C3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1AFF9718FFA7FD00431C3A /* FashionKredV2.app */,
+				0A1AFFBB18FFA7FD00431C3A /* FashionKredV2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A1AFF9918FFA7FD00431C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A1AFF9A18FFA7FD00431C3A /* Foundation.framework */,
+				0A1AFF9C18FFA7FD00431C3A /* CoreGraphics.framework */,
+				0A1AFF9E18FFA7FD00431C3A /* UIKit.framework */,
+				0A1AFFBC18FFA7FD00431C3A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A1AFFA018FFA7FD00431C3A /* FashionKredV2 */ = {
+			isa = PBXGroup;
+			children = (
+				0A1AFFB518FFA7FD00431C3A /* Images.xcassets */,
+				0A1AFFA118FFA7FD00431C3A /* Supporting Files */,
+				0A1AFFA918FFA7FD00431C3A /* FKAppDelegate.h */,
+				0A1AFFAA18FFA7FD00431C3A /* FKAppDelegate.m */,
+				0A1AFFAC18FFA7FD00431C3A /* Main_iPhone.storyboard */,
+				0A1AFFAF18FFA7FD00431C3A /* Main_iPad.storyboard */,
+				0A1AFFB218FFA7FD00431C3A /* FKViewController.h */,
+				0A1AFFB318FFA7FD00431C3A /* FKViewController.m */,
+				0A1AFFD218FFABA800431C3A /* FKSideMenuTableViewCell.h */,
+				0A1AFFD318FFABA800431C3A /* FKSideMenuTableViewCell.m */,
+				0A1AFFD518FFABBF00431C3A /* FKSideMenuTableViewCell.xib */,
+				0AB264DC190243FC00314D31 /* FKMainTableViewCell.h */,
+				0AB264DD190243FC00314D31 /* FKMainTableViewCell.m */,
+				0AB264DF1902440C00314D31 /* FKMainTableViewCell.xib */,
+				0AA659BD1903AA1200475A21 /* FKItemsTableView.h */,
+				0AA659BE1903AA1200475A21 /* FKItemsTableView.m */,
+				0AB264E61902613600314D31 /* FKLookTableView.h */,
+				0AB264E71902613600314D31 /* FKLookTableView.m */,
+				0AB264E9190261B500314D31 /* FKLookTableViewCell.xib */,
+				0AB264EB190261CA00314D31 /* FKLookTableViewCell.h */,
+				0AB264EC190261CA00314D31 /* FKLookTableViewCell.m */,
+				0AA659B81903A8F100475A21 /* FKItemTableViewCell.h */,
+				0AA659B91903A8F100475A21 /* FKItemTableViewCell.m */,
+				0AA659BB1903A90100475A21 /* FKItemTableViewCell.xib */,
+				0AAD7C9719037AE700CD1034 /* FKLookDetailsViewController.h */,
+				0AAD7C9819037AE700CD1034 /* FKLookDetailsViewController.m */,
+				0AAD7C9A19037E9900CD1034 /* FKLookEditViewController.h */,
+				0AAD7C9B19037E9900CD1034 /* FKLookEditViewController.m */,
+			);
+			path = FashionKredV2;
+			sourceTree = "<group>";
+		};
+		0A1AFFA118FFA7FD00431C3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1AFFA218FFA7FD00431C3A /* FashionKredV2-Info.plist */,
+				0A1AFFA318FFA7FD00431C3A /* InfoPlist.strings */,
+				0A1AFFA618FFA7FD00431C3A /* main.m */,
+				0A1AFFA818FFA7FD00431C3A /* FashionKredV2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A1AFFC218FFA7FD00431C3A /* FashionKredV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1AFFC818FFA7FD00431C3A /* FashionKredV2Tests.m */,
+				0A1AFFC318FFA7FD00431C3A /* Supporting Files */,
+			);
+			path = FashionKredV2Tests;
+			sourceTree = "<group>";
+		};
+		0A1AFFC318FFA7FD00431C3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1AFFC418FFA7FD00431C3A /* FashionKredV2Tests-Info.plist */,
+				0A1AFFC518FFA7FD00431C3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A1AFF9618FFA7FD00431C3A /* FashionKredV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1AFFCC18FFA7FD00431C3A /* Build configuration list for PBXNativeTarget "FashionKredV2" */;
+			buildPhases = (
+				0A1AFF9318FFA7FD00431C3A /* Sources */,
+				0A1AFF9418FFA7FD00431C3A /* Frameworks */,
+				0A1AFF9518FFA7FD00431C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FashionKredV2;
+			productName = FashionKredV2;
+			productReference = 0A1AFF9718FFA7FD00431C3A /* FashionKredV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A1AFFBA18FFA7FD00431C3A /* FashionKredV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1AFFCF18FFA7FD00431C3A /* Build configuration list for PBXNativeTarget "FashionKredV2Tests" */;
+			buildPhases = (
+				0A1AFFB718FFA7FD00431C3A /* Sources */,
+				0A1AFFB818FFA7FD00431C3A /* Frameworks */,
+				0A1AFFB918FFA7FD00431C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A1AFFC118FFA7FD00431C3A /* PBXTargetDependency */,
+			);
+			name = FashionKredV2Tests;
+			productName = FashionKredV2Tests;
+			productReference = 0A1AFFBB18FFA7FD00431C3A /* FashionKredV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A1AFF8F18FFA7FD00431C3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kevin Nguy";
+				TargetAttributes = {
+					0A1AFF9618FFA7FD00431C3A = {
+						DevelopmentTeam = XX3XY53UG4;
+					};
+					0A1AFFBA18FFA7FD00431C3A = {
+						TestTargetID = 0A1AFF9618FFA7FD00431C3A;
+					};
+				};
+			};
+			buildConfigurationList = 0A1AFF9218FFA7FD00431C3A /* Build configuration list for PBXProject "FashionKredV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A1AFF8E18FFA7FD00431C3A;
+			productRefGroup = 0A1AFF9818FFA7FD00431C3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A1AFF9618FFA7FD00431C3A /* FashionKredV2 */,
+				0A1AFFBA18FFA7FD00431C3A /* FashionKredV2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1AFF9518FFA7FD00431C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1AFFD618FFABBF00431C3A /* FKSideMenuTableViewCell.xib in Resources */,
+				0AB264EA190261B500314D31 /* FKLookTableViewCell.xib in Resources */,
+				0A1AFFB118FFA7FD00431C3A /* Main_iPad.storyboard in Resources */,
+				0AA659BC1903A90100475A21 /* FKItemTableViewCell.xib in Resources */,
+				0A1AFFB618FFA7FD00431C3A /* Images.xcassets in Resources */,
+				0AB264E01902440C00314D31 /* FKMainTableViewCell.xib in Resources */,
+				0A1AFFAE18FFA7FD00431C3A /* Main_iPhone.storyboard in Resources */,
+				0A1AFFA518FFA7FD00431C3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1AFFB918FFA7FD00431C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1AFFC718FFA7FD00431C3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1AFF9318FFA7FD00431C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB264ED190261CA00314D31 /* FKLookTableViewCell.m in Sources */,
+				0AA659BF1903AA1200475A21 /* FKItemsTableView.m in Sources */,
+				0A1AFFA718FFA7FD00431C3A /* main.m in Sources */,
+				0A1AFFAB18FFA7FD00431C3A /* FKAppDelegate.m in Sources */,
+				0AAD7C9C19037E9900CD1034 /* FKLookEditViewController.m in Sources */,
+				0AAD7C9919037AE700CD1034 /* FKLookDetailsViewController.m in Sources */,
+				0AA659BA1903A8F100475A21 /* FKItemTableViewCell.m in Sources */,
+				0AB264DE190243FC00314D31 /* FKMainTableViewCell.m in Sources */,
+				0A1AFFD418FFABA800431C3A /* FKSideMenuTableViewCell.m in Sources */,
+				0AB264E81902613600314D31 /* FKLookTableView.m in Sources */,
+				0A1AFFB418FFA7FD00431C3A /* FKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1AFFB718FFA7FD00431C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1AFFC918FFA7FD00431C3A /* FashionKredV2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A1AFFC118FFA7FD00431C3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A1AFF9618FFA7FD00431C3A /* FashionKredV2 */;
+			targetProxy = 0A1AFFC018FFA7FD00431C3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A1AFFA318FFA7FD00431C3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1AFFA418FFA7FD00431C3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A1AFFAC18FFA7FD00431C3A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1AFFAD18FFA7FD00431C3A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0A1AFFAF18FFA7FD00431C3A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1AFFB018FFA7FD00431C3A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0A1AFFC518FFA7FD00431C3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1AFFC618FFA7FD00431C3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A1AFFCA18FFA7FD00431C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A1AFFCB18FFA7FD00431C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A1AFFCD18FFA7FD00431C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FashionKredV2/FashionKredV2-Prefix.pch";
+				INFOPLIST_FILE = "FashionKredV2/FashionKredV2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A1AFFCE18FFA7FD00431C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FashionKredV2/FashionKredV2-Prefix.pch";
+				INFOPLIST_FILE = "FashionKredV2/FashionKredV2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A1AFFD018FFA7FD00431C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FashionKredV2.app/FashionKredV2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FashionKredV2/FashionKredV2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FashionKredV2Tests/FashionKredV2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0A1AFFD118FFA7FD00431C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FashionKredV2.app/FashionKredV2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FashionKredV2/FashionKredV2-Prefix.pch";
+				INFOPLIST_FILE = "FashionKredV2Tests/FashionKredV2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1AFF9218FFA7FD00431C3A /* Build configuration list for PBXProject "FashionKredV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1AFFCA18FFA7FD00431C3A /* Debug */,
+				0A1AFFCB18FFA7FD00431C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1AFFCC18FFA7FD00431C3A /* Build configuration list for PBXNativeTarget "FashionKredV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1AFFCD18FFA7FD00431C3A /* Debug */,
+				0A1AFFCE18FFA7FD00431C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1AFFCF18FFA7FD00431C3A /* Build configuration list for PBXNativeTarget "FashionKredV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1AFFD018FFA7FD00431C3A /* Debug */,
+				0A1AFFD118FFA7FD00431C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A1AFF8F18FFA7FD00431C3A /* Project object */;
+}
